@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "OSG Production\n\n\nWelcome to OSG Production \n\n\nOSG Production is the culmination of many OSG efforts including testing, integration, services, support, operations, hardware, software, and security -- VO's get their jobs run, their data analyzed, and in so doing enable the advancement of science.\n\n\nContact Us With Your OSG Production Problems\n\n\n\n\nOpen a Ticket\n\n\nEmail: goc@opensciencegrid.org\n\n\nMailing List: osg-operations@opensciencegrid.org\n\n\nPhone: +1-317-274-5260\n\n\nFollow us on Twitter: @OSGGOC\n\n\n\n\nLive OSG Production Statistics\n\n\nFor a current view of OSG Production see the \nMonitoring Display\n\n   * \n\n\nWeekly Production Meetings\n\n\n4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: \nhttps://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968 or +1 646-558-8656, PIN 865-253-152#\n\n\nCurrent Meeting Minutes\n\n\nAre available in the menu on the left. \n\n\nFor Minutes Prior to 12-February-2017 Please Visit the \nArchive\n\n\nMeeting Template\n\n\nWeeklyTemplate\n\n\nOther OSG Meetings and Events\n\n\nOSG Indico Event Site", 
+            "text": "OSG Production\n\n\nWelcome to OSG Production \n\n\nOSG Production is the culmination of many OSG efforts including testing, integration, services, support, operations, hardware, software, and security -- VO's get their jobs run, their data analyzed, and in so doing enable the advancement of science.\n\n\nContact Us With Your OSG Production Problems\n\n\n\n\nOpen a Ticket\n\n\nEmail: goc@opensciencegrid.org\n\n\nMailing List: osg-operations@opensciencegrid.org\n\n\nPhone: +1-317-274-5260\n\n\nFollow us on Twitter: @OSGGOC\n\n\n\n\nLive OSG Production Statistics\n\n\nFor a current view of OSG Production see the \nMonitoring Display\n\n\nWeekly Production Meetings\n\n\n4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: \nhttps://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968 or +1 646-558-8656, PIN 865-253-152#\n\n\nCurrent Meeting Minutes\n\n\nAre available in the menu on the left. \n\n\nFor Minutes Prior to 12-February-2017 Please Visit the \nArchive\n\n\nMeeting Template\n\n\nWeeklyTemplate\n\n\nOther OSG Meetings and Events\n\n\nOSG Indico Event Site", 
             "title": "Home"
         }, 
         {
@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/#live-osg-production-statistics", 
-            "text": "For a current view of OSG Production see the  Monitoring Display \n   *", 
+            "text": "For a current view of OSG Production see the  Monitoring Display", 
             "title": "Live OSG Production Statistics"
         }, 
         {
@@ -39,6 +39,466 @@
             "location": "/#other-osg-meetings-and-events", 
             "text": "OSG Indico Event Site", 
             "title": "Other OSG Meetings and Events"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nZoom coordinates: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\n\n\nNew version of ssl may cause java apps to fail, there is a known fix\n\n\nSecurity will announce a vulnerability and request information regarding packages\n\n\n\n\nAttendees:\n\n\n\n\nScott, Tim T, Armen, Xin, Jeny, Tanya, Brian, Krista, Ken\n\n\n\n\nApologies:\n\n\n\n\nRob, Kyle (travel)\n\n\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nProduction status:\n\n\nUSATLAS total production over the past week continue to be quite stable, at the average level of 60-70K running job slots.\n\n\n\n\n\n\nJob Statistics: \n\n\ngracc report: 1.7M pilots, 5.4M walltime hours, cpu/walltime ratio of 90%\n\n\natlas dashboard: 2M jobs (62k on opportunistic resources)\n\n\n\n\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (Krista)\n\n\n\n\nCMS Production for the week (4/11-4/17):\n\n\n8,840,814 hours\n\n\n278,423 pilots\n\n\n\n\n\n\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status: \n\n\nReports current: \n\n\nPerfSonar\n\n\nOSG CPU hours\n\n\nLocal submit node usage:\n\n\n\n\nITB release, minor problems encountered, solved\n\n\nRelease note\n\n\nGratiaWeb \nshutdown in progress\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\n\n\nSuccessful test jobs for DUNE at Sheffield via the ITB factory. Production as early as next week?\n\n\nDUNE test jobs in the queue at Imperial; waiting for free resources.\n\n\nSignificant failures for NOvA in the past few days. Combination of bug in new production release and a possible failure of some CVMFS stratum 1s to pick up an update. Still investigating.\n\n\n\n\nSoftware (Brian L.)\n\n\nIssues with some java-based services (SRM endpoints, potentially GUMS) and OpenSSL-1.0.1e-57. Resolved with update to java-1.7.0-openjdk-1.7.0.131-2.6.9.0.el6_8.x86_64  \n\n\nOSG 3.3.24\n (May):  \n\n\n\n\nLCMAPS VOMS plugin: osg-configure and documentation\n\n\nGlideinWMS 3.3 in upcoming based on HTCondor 8.6.x\n\n\nHTCondor 8.6.2\n\n\nPotentially XRootD 4.6.1\n\n\nPotentially VOMS Admin server\n\n\n\n\nOther stuff:  \n\n\n\n\nMigrating APEL report to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nOSG 3.4 preparation\n [IN PROGRESS]\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\nOverhauling the Gratia documentation [IN PROGRESS]\n\n\n\n\nRelease (Tim T.)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nMay\n\n\n3.3.24\n\n\n2017-04-24\n\n\n2017-05-01\n\n\n2017-05-09\n\n\nHTCondor Week\n\n\n\n\n\n\nJune\n\n\n3.3.25\n\n\n2017-05-30\n\n\n2017-06-05\n\n\n2017-06-13\n\n\n5 week cycle\n\n\n\n\n\n\nJuly\n\n\n3.3.23\n\n\n2017-06-26\n\n\n2017-07-03\n\n\n2017-07-11\n\n\nIndependence Day\n\n\n\n\n\n\n* Concerns: Xin no longer testing, Suchandra on vacation, HTCondor Week\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* May 9: Software Release \n20\n3D\n20SOFTWARE\n20AND\n20labels\n20\n3D\n203.3.24\n20ORDER\n20BY\n20status\n20ASC\n2C\n20priority\n20DESC\n2C\n20assignee\n20ASC\">3.3.24\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* OSG 3.3.24\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Nothing yet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Upcoming repository\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* \nGlideinWMS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecurity (Zalak)\n\n\nCommunication (Kyle)", 
+            "title": "18 April 2017"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#announcements", 
+            "text": "", 
+            "title": "Announcements:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#actionsignificant-items", 
+            "text": "New version of ssl may cause java apps to fail, there is a known fix  Security will announce a vulnerability and request information regarding packages", 
+            "title": "Action/Significant Items:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#attendees", 
+            "text": "Scott, Tim T, Armen, Xin, Jeny, Tanya, Brian, Krista, Ken", 
+            "title": "Attendees:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#apologies", 
+            "text": "Rob, Kyle (travel)", 
+            "title": "Apologies:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#atlas-armen-xin", 
+            "text": "Production status:  USATLAS total production over the past week continue to be quite stable, at the average level of 60-70K running job slots.    Job Statistics:   gracc report: 1.7M pilots, 5.4M walltime hours, cpu/walltime ratio of 90%  atlas dashboard: 2M jobs (62k on opportunistic resources)", 
+            "title": "Atlas (Armen &amp; Xin)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#fife-fabric-for-frontier-experiments-tanya", 
+            "text": "", 
+            "title": "FIFE - FabrIc for Frontier Experiments (Tanya)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#cms-krista", 
+            "text": "CMS Production for the week (4/11-4/17):  8,840,814 hours  278,423 pilots", 
+            "title": "CMS (Krista)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#grid-operations-center-scott", 
+            "text": "GOC Services Availability/Reliability  Current Status:   Reports current:   PerfSonar  OSG CPU hours  Local submit node usage:   ITB release, minor problems encountered, solved  Release note  GratiaWeb  shutdown in progress", 
+            "title": "Grid Operations Center (Scott)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#production-support-ken", 
+            "text": "Successful test jobs for DUNE at Sheffield via the ITB factory. Production as early as next week?  DUNE test jobs in the queue at Imperial; waiting for free resources.  Significant failures for NOvA in the past few days. Combination of bug in new production release and a possible failure of some CVMFS stratum 1s to pick up an update. Still investigating.", 
+            "title": "Production Support (Ken)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#software-brian-l", 
+            "text": "Issues with some java-based services (SRM endpoints, potentially GUMS) and OpenSSL-1.0.1e-57. Resolved with update to java-1.7.0-openjdk-1.7.0.131-2.6.9.0.el6_8.x86_64    OSG 3.3.24  (May):     LCMAPS VOMS plugin: osg-configure and documentation  GlideinWMS 3.3 in upcoming based on HTCondor 8.6.x  HTCondor 8.6.2  Potentially XRootD 4.6.1  Potentially VOMS Admin server   Other stuff:     Migrating APEL report to use GR CC queries instead of Gratia [IN PROGRESS]  OSG 3.4 preparation  [IN PROGRESS]  Test pre-release versions of HTCondor on Madison ITB [IN PROGRESS]  Overhauling the Gratia documentation [IN PROGRESS]", 
+            "title": "Software (Brian L.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#release-tim-t", 
+            "text": "", 
+            "title": "Release (Tim T.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#release-schedule", 
+            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      May  3.3.24  2017-04-24  2017-05-01  2017-05-09  HTCondor Week    June  3.3.25  2017-05-30  2017-06-05  2017-06-13  5 week cycle    July  3.3.23  2017-06-26  2017-07-03  2017-07-11  Independence Day    * Concerns: Xin no longer testing, Suchandra on vacation, HTCondor Week         * May 9: Software Release  20 3D 20SOFTWARE 20AND 20labels 20 3D 203.3.24 20ORDER 20BY 20status 20ASC 2C 20priority 20DESC 2C 20assignee 20ASC\">3.3.24         * OSG 3.3.24         * Nothing yet         * Upcoming repository         *  GlideinWMS", 
+            "title": "Release Schedule"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#security-zalak", 
+            "text": "", 
+            "title": "Security (Zalak)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18April2017/#communication-kyle", 
+            "text": "", 
+            "title": "Communication (Kyle)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nZoom coordinates: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\n\n\nNeed to investigate status of Syracuse resources (largest provider of opportunistic cycles), may be affecting over all opp. use.\n\n\nCMS demand is down, work for winter conferences is completed\n\n\nProduction support reports flock jobs are up, over 12k for sustained periods, possible correlated with CMS demand\n\n\nBDII shutdown went unnoticed\n\n\n\n\nAttendees:\n\n\n\n\nArmen, Xin, Krista, Scott, Brain L, Kyle, Zalak, Ken, Tim T, Tanya\n\n\n\n\nApologies:\n\n\n\n\nRob Q.\n\n\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nProduction status:\n\n\nUSATLAS total production over the past week was overall stable, at the average level of 60-70K running job slots.\n\n\n\n\n\n\nJob statistics:\n\n\ngracc report: 1.6M pilots, walltime hours of 4M, cpu/walltime ratio of 87%\n\n\natlas dashboard: 1.8M jobs (50k from opportunistic sites)\n\n\n\n\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (Krista)\n\n\n\n\nCMS Production for the week (4/4-4/10):\n\n\n8,115,501 hours\n\n\n395,004 pilots\n\n\n\n\n\n\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status: \n\n\nReports current: \n\n\nPerfSonar\n\n\nOSG CPU hours\n\n\nLocal submit node usage:\n\n\n\n\nProduction release this cycle, no issues encountered\n\n\nPlease test JIRA if you have access\n\n\n\n\n\n\nRHEL5 status board\n\n\nHave requested format change for this meeting, await outcome\n\n\n\n\nProduction Support (Ken)\n\n\n\n\nRunning flock job counts still looking better, never dipped below 10K this week.\n\n\nProgress at getting DUNE set up to run factory pilots at Sheffield, Manchester, and Imperial. \n\n\nThey already accept DIRAC pilots so basic VO setup doesn't need to happen; just factory entires. \n\n\nHope to be testing in ITB by week's end.\n\n\n\n\n\n\nVery low hours for the Fermilab VO and Syracuse the past few days, though total opportunistic jobs are not down.\n\n\nSomething to do with switch to containers (Fermilab frontend not yet modified.)\n\n\nTicket open at https://ticket.opensciencegrid.org/33416\n\n\n\n\n\n\n\n\nSoftware (Brian L.)\n\n\nOSG 3.3.24\n (May):  \n\n\n\n\nLCMAPS VOMS plugin: osg-configure and documentation\n\n\nGlideinWMS 3.3 in upcoming based on HTCondor 8.6.x\n\n\n\n\nOther stuff:  \n\n\n\n\nMigrating OSG Display to use GR\nCC queries instead of Gratia [DONE]\n\n\nTesting JIRA-ITB [DONE]\n\n\nInvestigating issues with WLCG accounting for Wisconsin CMS CEs [DONE]\n\n\nMigrating APEL report to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nOSG 3.4 preparation\n [IN PROGRESS]\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\nOverhauling the Gratia probe troubleshooting documentation [IN PROGRESS]\n\n\n\n\nRelease (Tim T.)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nApril\n\n\n3.3.23\n\n\n2017-03-27\n\n\n2017-04-03\n\n\n2017-04-11\n\n\n\n\n\n\n\n\nMay\n\n\n3.3.24\n\n\n2017-04-25\n\n\n2017-05-01\n\n\n2017-05-09\n\n\n\n\n\n\n\n\nJune\n\n\n3.3.25\n\n\n2017-05-30\n\n\n2017-06-05\n\n\n2017-06-13\n\n\n5 week cycle\n\n\n\n\n\n\n* April 10: Data Release \n3.3.22-3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* \nIGTF 1.82\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* April 11: Software Release \n3.3.23\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* OSG 3.3.23\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* LCMAPS VOMS plugin: Use VOMS attributes to map users\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* \nHTCondor-CE 2.1.5\n: LCMAPS VOMS integration, package Slurm configuration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* \nCVMFS 2.3.5\n: Fixes, including automount fix when autofs restarts on EL7\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* \nPegasus 4.7.4\n: \nUpdate from version 4.6.1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* OSG-CE 3.3-12: Removed gip and osg-info-services, see note below\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Upcoming repository\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* LCMAPS 1.6.6-1.3: Enable VOMS attribute checking by default\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* \nFrontier squid 3.5.24-3.1\n: Fix for some crashes under heavy load\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecurity (Zalak)\n\n\n\n\nSecurity team has sent an announcement yesterday regarding the vulnerabilities in Apache Struts \n\n\nWe haven't disclosed any details about the vulnerabilities itself as the exploits are publicly available \n\n\n\n\n\n\n\n\nCommunication (Kyle)\n\n\n\n\nGratiaWeb/GRACC Announcements\n\n\nOSG User School Announcements\n\n\nWaiting on article from Greg", 
+            "title": "11 April 2017"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#announcements", 
+            "text": "", 
+            "title": "Announcements:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#actionsignificant-items", 
+            "text": "Need to investigate status of Syracuse resources (largest provider of opportunistic cycles), may be affecting over all opp. use.  CMS demand is down, work for winter conferences is completed  Production support reports flock jobs are up, over 12k for sustained periods, possible correlated with CMS demand  BDII shutdown went unnoticed", 
+            "title": "Action/Significant Items:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#attendees", 
+            "text": "Armen, Xin, Krista, Scott, Brain L, Kyle, Zalak, Ken, Tim T, Tanya", 
+            "title": "Attendees:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#apologies", 
+            "text": "Rob Q.", 
+            "title": "Apologies:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#atlas-armen-xin", 
+            "text": "Production status:  USATLAS total production over the past week was overall stable, at the average level of 60-70K running job slots.    Job statistics:  gracc report: 1.6M pilots, walltime hours of 4M, cpu/walltime ratio of 87%  atlas dashboard: 1.8M jobs (50k from opportunistic sites)", 
+            "title": "Atlas (Armen &amp; Xin)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#fife-fabric-for-frontier-experiments-tanya", 
+            "text": "", 
+            "title": "FIFE - FabrIc for Frontier Experiments (Tanya)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#cms-krista", 
+            "text": "CMS Production for the week (4/4-4/10):  8,115,501 hours  395,004 pilots", 
+            "title": "CMS (Krista)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#grid-operations-center-scott", 
+            "text": "GOC Services Availability/Reliability  Current Status:   Reports current:   PerfSonar  OSG CPU hours  Local submit node usage:   Production release this cycle, no issues encountered  Please test JIRA if you have access    RHEL5 status board  Have requested format change for this meeting, await outcome", 
+            "title": "Grid Operations Center (Scott)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#production-support-ken", 
+            "text": "Running flock job counts still looking better, never dipped below 10K this week.  Progress at getting DUNE set up to run factory pilots at Sheffield, Manchester, and Imperial.   They already accept DIRAC pilots so basic VO setup doesn't need to happen; just factory entires.   Hope to be testing in ITB by week's end.    Very low hours for the Fermilab VO and Syracuse the past few days, though total opportunistic jobs are not down.  Something to do with switch to containers (Fermilab frontend not yet modified.)  Ticket open at https://ticket.opensciencegrid.org/33416", 
+            "title": "Production Support (Ken)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#software-brian-l", 
+            "text": "OSG 3.3.24  (May):     LCMAPS VOMS plugin: osg-configure and documentation  GlideinWMS 3.3 in upcoming based on HTCondor 8.6.x   Other stuff:     Migrating OSG Display to use GR CC queries instead of Gratia [DONE]  Testing JIRA-ITB [DONE]  Investigating issues with WLCG accounting for Wisconsin CMS CEs [DONE]  Migrating APEL report to use GR CC queries instead of Gratia [IN PROGRESS]  OSG 3.4 preparation  [IN PROGRESS]  Test pre-release versions of HTCondor on Madison ITB [IN PROGRESS]  Overhauling the Gratia probe troubleshooting documentation [IN PROGRESS]", 
+            "title": "Software (Brian L.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#release-tim-t", 
+            "text": "", 
+            "title": "Release (Tim T.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#release-schedule", 
+            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      April  3.3.23  2017-03-27  2017-04-03  2017-04-11     May  3.3.24  2017-04-25  2017-05-01  2017-05-09     June  3.3.25  2017-05-30  2017-06-05  2017-06-13  5 week cycle    * April 10: Data Release  3.3.22-3         *  IGTF 1.82         * April 11: Software Release  3.3.23         * OSG 3.3.23         * LCMAPS VOMS plugin: Use VOMS attributes to map users         *  HTCondor-CE 2.1.5 : LCMAPS VOMS integration, package Slurm configuration         *  CVMFS 2.3.5 : Fixes, including automount fix when autofs restarts on EL7         *  Pegasus 4.7.4 :  Update from version 4.6.1         * OSG-CE 3.3-12: Removed gip and osg-info-services, see note below         * Upcoming repository         * LCMAPS 1.6.6-1.3: Enable VOMS attribute checking by default         *  Frontier squid 3.5.24-3.1 : Fix for some crashes under heavy load", 
+            "title": "Release Schedule"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#security-zalak", 
+            "text": "Security team has sent an announcement yesterday regarding the vulnerabilities in Apache Struts   We haven't disclosed any details about the vulnerabilities itself as the exploits are publicly available", 
+            "title": "Security (Zalak)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/11April2017/#communication-kyle", 
+            "text": "GratiaWeb/GRACC Announcements  OSG User School Announcements  Waiting on article from Greg", 
+            "title": "Communication (Kyle)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nZoom coordinates: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\n\n\nAnnouncements:\n\n\n\n\nis1/2 (Operations BDII instances) were powered off 9:20 4/APR\n\n\ngratia to be unavailable 1/May\n\n\n\n\nAction/Significant Items:\n\n\n\n\nThis format for the agenda/notes is considered burdensome and a request to change it has been made.\n\n\nGoogle docs was suggested\n\n\n\n\n\n\n\n\nAttendees:\n\n\n\n\nScott, Kyle, Susan, Armen, Xin, Tanya, Tim, Krista, Ken\n\n\n\n\nApologies:\n\n\n\n\nRob\n\n\n\n\nAtlas (Armen \n Xin)\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\n\n\nnova (743,453)\n\n\nmu2e (102,367)\n\n\ngm2 (43,047)\n\n\nmicroboone (40,391)\n\n\ndes (1,558)\n\n\ncdms (1,443)\n\n\ndarkside (610)\n(WallHours)\n\n\n\n\nCMS (Krista)\n\n\n\n\nCMS Production for the week (3/28-4/3):\n\n\n7,942,780 hours\n\n\n381,645 pilots\n\n\n\n\n\n\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status: \n\n\nReports current: \n\n\nPerfSonar\n\n\nOSG CPU hours\n\n\nplease note, this is a link to the replacement for the gratia derived image used previously\n\n\n\n\n\n\nLocal submit node usage:\n\n\n\n\nITB release this cycle, mostly internal services\n\n\nRHEL5 status board\n\n\nBDII: 4/Apr 9:20 (eastern) both instances were powered off.\n\n\nis-itb1 was powered off 12:00 28/Mar\n\n\n\n\n\n\nPerfSonar components temporarily have \"development\" status.\n\n\nExperts have access without release schedule constraints.\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\n\n\nGood meeting with GlueX last week about getting a CE set up for them. GlueX folks will decide amongst themselves who will go first; Rob G will be the contact from OSG. We'll check in again at the end of the month.\n\n\nEmails in to DUNE contacts at Sheffield and Manchester about DUNE support\n\n\nMonthly Site-VO report for March 2017\n\n\n126.9 M total hours, up 13% from Feb.\n\n\nOpportunistic (OSG+GLOW+glueX+HCC+SBgrid) hours up 37% to 17.7 M from 12.9 M \n\n\nATLAS down over 4M hours from Feb.; CMS down about 600K hours\n\n\n\n\n\n\n\n\nSoftware (Brian L.)\n\n\nOSG 3.3.24\n (April) diff:  \n\n\n\n\nPossibly reversioned to 3.3.23 depending on timing of voms-admin-server work\n\n\nosg-ce: Dropped GIP/osg-info-services, improved Slurm metapackage\n\n\n\n\nOther stuff:  \n\n\n\n\nTesting JIRA-ITB [IN PROGRESS]\n\n\nInvestigating issues with WLCG accounting for Wisconsin CMS CEs [IN PROGRESS]\n\n\nMigrating OSG Display to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nMigrating APEL report to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\nOverhauling the Gratia documentation [IN PROGRESS]\n\n\n\n\nRelease (Tim T.)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nApril\n\n\n3.3.23\n\n\n2017-03-27\n\n\n2017-04-03\n\n\n2017-04-11\n\n\n\n\n\n\n\n\nSpecial\n\n\n3.3.24\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\nMay\n\n\n3.3.25\n\n\n2017-04-25\n\n\n2017-05-01\n\n\n2017-05-09\n\n\n\n\n\n\n\n\nJune\n\n\n3.3.26\n\n\n2017-05-30\n\n\n2017-06-05\n\n\n2017-06-13\n\n\n5 week cycle\n\n\n\n\n\n\n* Data Release \n3.3.22-3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* \nIGTF 1.82\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* \n20\n3D\n20SOFTWARE\n20AND\n20labels\n20\n3D\n203.3.23\n20ORDER\n20BY\n20status\n20ASC\n2C\n20priority\n20DESC\n2C\n20assignee\n20ASC\">April 11th Release\n - OSG 3.3.23\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* LCMAPS VOMS plugin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Require VOMS attribute checking in LCMAPS VOMS plugin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Update default lcmaps.db to support LCMAPS VOMS plugin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Upcoming: Check VMOS attributes in LCMAPS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* HTCondor-CE 2.1.5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* htcondor-ce-slurm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Don't disable LCMAPS VOMS attribute testing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* CVMFS 2.3.5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Restarting autofs on EL7 breaks CVMFS automounts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* osg-ce-3.3-12 - Drop GRAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* osg-configure tests: don't assume osg-info-services on osg-ce\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* Pegasus 4.7.4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* frontier-squid 3.5.24-3.1 in upcoming\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecurity (Susan)\n\n\nCommunication (Kyle)\n\n\n\n\nGreg Moore has article ideas and will work with Ken first.\n\n\nTried to clean up mailing lists a little more\n\n\nMaking announcements for PEARC17", 
+            "title": "4 April 2017"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#announcements", 
+            "text": "is1/2 (Operations BDII instances) were powered off 9:20 4/APR  gratia to be unavailable 1/May", 
+            "title": "Announcements:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#actionsignificant-items", 
+            "text": "This format for the agenda/notes is considered burdensome and a request to change it has been made.  Google docs was suggested", 
+            "title": "Action/Significant Items:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#attendees", 
+            "text": "Scott, Kyle, Susan, Armen, Xin, Tanya, Tim, Krista, Ken", 
+            "title": "Attendees:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#apologies", 
+            "text": "Rob", 
+            "title": "Apologies:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#atlas-armen-xin", 
+            "text": "", 
+            "title": "Atlas (Armen &amp; Xin)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#fife-fabric-for-frontier-experiments-tanya", 
+            "text": "nova (743,453)  mu2e (102,367)  gm2 (43,047)  microboone (40,391)  des (1,558)  cdms (1,443)  darkside (610)\n(WallHours)", 
+            "title": "FIFE - FabrIc for Frontier Experiments (Tanya)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#cms-krista", 
+            "text": "CMS Production for the week (3/28-4/3):  7,942,780 hours  381,645 pilots", 
+            "title": "CMS (Krista)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#grid-operations-center-scott", 
+            "text": "GOC Services Availability/Reliability  Current Status:   Reports current:   PerfSonar  OSG CPU hours  please note, this is a link to the replacement for the gratia derived image used previously    Local submit node usage:   ITB release this cycle, mostly internal services  RHEL5 status board  BDII: 4/Apr 9:20 (eastern) both instances were powered off.  is-itb1 was powered off 12:00 28/Mar    PerfSonar components temporarily have \"development\" status.  Experts have access without release schedule constraints.", 
+            "title": "Grid Operations Center (Scott)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#production-support-ken", 
+            "text": "Good meeting with GlueX last week about getting a CE set up for them. GlueX folks will decide amongst themselves who will go first; Rob G will be the contact from OSG. We'll check in again at the end of the month.  Emails in to DUNE contacts at Sheffield and Manchester about DUNE support  Monthly Site-VO report for March 2017  126.9 M total hours, up 13% from Feb.  Opportunistic (OSG+GLOW+glueX+HCC+SBgrid) hours up 37% to 17.7 M from 12.9 M   ATLAS down over 4M hours from Feb.; CMS down about 600K hours", 
+            "title": "Production Support (Ken)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#software-brian-l", 
+            "text": "OSG 3.3.24  (April) diff:     Possibly reversioned to 3.3.23 depending on timing of voms-admin-server work  osg-ce: Dropped GIP/osg-info-services, improved Slurm metapackage   Other stuff:     Testing JIRA-ITB [IN PROGRESS]  Investigating issues with WLCG accounting for Wisconsin CMS CEs [IN PROGRESS]  Migrating OSG Display to use GR CC queries instead of Gratia [IN PROGRESS]  Migrating APEL report to use GR CC queries instead of Gratia [IN PROGRESS]  Test pre-release versions of HTCondor on Madison ITB [IN PROGRESS]  Overhauling the Gratia documentation [IN PROGRESS]", 
+            "title": "Software (Brian L.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#release-tim-t", 
+            "text": "", 
+            "title": "Release (Tim T.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#release-schedule", 
+            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      April  3.3.23  2017-03-27  2017-04-03  2017-04-11     Special  3.3.24  TBD  TBD  TBD     May  3.3.25  2017-04-25  2017-05-01  2017-05-09     June  3.3.26  2017-05-30  2017-06-05  2017-06-13  5 week cycle    * Data Release  3.3.22-3         *  IGTF 1.82         *  20 3D 20SOFTWARE 20AND 20labels 20 3D 203.3.23 20ORDER 20BY 20status 20ASC 2C 20priority 20DESC 2C 20assignee 20ASC\">April 11th Release  - OSG 3.3.23         * LCMAPS VOMS plugin         * Require VOMS attribute checking in LCMAPS VOMS plugin         * Update default lcmaps.db to support LCMAPS VOMS plugin         * Upcoming: Check VMOS attributes in LCMAPS         * HTCondor-CE 2.1.5         * htcondor-ce-slurm         * Don't disable LCMAPS VOMS attribute testing         * CVMFS 2.3.5         * Restarting autofs on EL7 breaks CVMFS automounts         * osg-ce-3.3-12 - Drop GRAM         * osg-configure tests: don't assume osg-info-services on osg-ce         * Pegasus 4.7.4         * frontier-squid 3.5.24-3.1 in upcoming", 
+            "title": "Release Schedule"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#security-susan", 
+            "text": "", 
+            "title": "Security (Susan)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/4April2017/#communication-kyle", 
+            "text": "Greg Moore has article ideas and will work with Ken first.  Tried to clean up mailing lists a little more  Making announcements for PEARC17", 
+            "title": "Communication (Kyle)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nZoom coordinates: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\n\n\nAnnouncements:\n\n\n\n\nLast BDII deprecation \nnotice\n has been sent. Poweroff is 4/Apr, 9:00 eastern\n\n\nis-itb1 was powered off 12:00 28/Mar\n\n\n\n\nAction/Significant Items:\n\n\n\n\nBNL \"draining the queue\", two day maintenace soon.\n\n\nCMS has completed work for the summer conferences, expect downturn in use.\n\n\nOperations has (almost) completed upgrades of production services to RHEL6 or RHEL7\n\n\nJIRA remains, ITB completed. Encountered small problems with repo.grid, to be repaired this week\n\n\n\n\n\n\n\n\nAttendees:\n\n\n\n\nScott, Kyle, Armen, Xin, Ken, Brian, Tim T, Susan\n\n\n\n\nApologies:\n\n\n\n\nRob\n\n\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nProduction status:\n\n\nJob Statistics: \n\n\nGratia report: 1.4M pilots, 4.3M walltime hours, cpu/walltime ratio of 77%\n\n\nATLAS dashboard reports 1.5M real jobs (16k on opportunistic sites)\n\n\n\n\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\n\n\nnova (724,945)\n\n\nmicroboone (27,102)\n\n\ndes (142)\n\n\nmu2e (108)\n\n\ngm2 (10)\n\n\n\n\nCMS (Krista)\n\n\n\n\nCMS Production for the week (3/21-3/27):\n\n\n10,491,247 hours\n\n\n405,686 pilots\n\n\n\n\n\n\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status: \n\n\nReports current: \n\n\nplease observe the version and capacity reports (BDII based) are no longer updated\n\n\n\n\n\n\nPerfSonar\n\n\n\n\n\n\nRelease note\n\n\nProduction release, condor collectors, repo1/2, minor operations on OIM, MyOSG, Some internal machines.\n\n\nrepo update was challenging, repo depends on repo\n\n\n\n\n\n\nRHEL5 status board\n\n\nBDII: on 31/Mar SLA expires, 4/Apr 9:00 (eastern) both instances will be powered off.\n\n\nis-itb1 was powered off 12:00 28/Mar\n\n\n\n\n\n\nPerfSonar components temporarily have \"development\" status.\n\n\nExperts have access without release schedule constraints.\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\n\n\nStill trying to set up the meeting for the hosted CE for GlueX\n\n\nWill start looking into more sites for opportunistic VOs (was on back burner due to low demand from the main VOs)\n\n\n\n\nSoftware (Brian L.)\n\n\nOSG 3.3.24\n (April):  \n\n\n\n\nlcmaps-voms-plugin: Dropped from the previous release, targeting April\n\n\ncvmfs 2.3.4: broken repos when restarting autofs\n\n\nfrontier-squid-3 update in upcoming that fixes crashes under heavy load\n\n\nInvestigating broken tarball symlinks in OASIS\n\n\n\n\nOther stuff:  \n\n\n\n\nUpdating VOMS Admin server\n\n\nIssues with WLCG accounting for Wisconsin CMS CEs\n\n\nAdding new documentation on using a load balancer (LVS) with GridFTP [DONE]\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\nMigrating OSG Display to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nMigrating APEL report to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nOverhauling the Gratia documentation [IN PROGRESS]\n\n\n\n\nRelease (Tim T.)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nSpecial\n\n\n3.3.23\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\nApril\n\n\n3.3.24\n\n\n2017-03-27\n\n\n2017-04-03\n\n\n2017-04-11\n\n\n\n\n\n\n\n\nMay\n\n\n3.3.25\n\n\n2017-04-25\n\n\n2017-05-01\n\n\n2017-05-09\n\n\n\n\n\n\n\n\nJune\n\n\n3.3.26\n\n\n2017-05-30\n\n\n2017-06-05\n\n\n2017-06-13\n\n\n5 week cycle\n\n\n\n\n\n\n\n\n\n\nData Release \n3.3.22-2\n\n\nVO Package v72\n\n\n\n\n\n\n20\n3D\n20SOFTWARE\n20AND\n20labels\n20\n3D\n203.3.24\n20ORDER\n20BY\n20status\n20ASC\n2C\n20priority\n20DESC\n2C\n20assignee\n20ASC\">April 11th Release\n - OSG 3.3.24\n\n\nLCMAPS VOMS plugin\n\n\nRequire VOMS attribute checking in LCMAPS VOMS plugin\n\n\nUpdate default lcmaps.db to support LCMAPS VOMS plugin\n\n\n\n\n\n\nUpcoming: Check VMOS attributes in LCMAPS\n\n\nHTCondor-CE 2.1.5\n\n\nhtcondor-ce-slurm\n\n\nDon't disable LCMAPS VOMS attribute testing\n\n\n\n\n\n\nCVMFS 2.3.5\n\n\nRestarting autofs breaks CVMFS automounts\n\n\n\n\n\n\n\n\n\n\n\n\nSecurity (Susan)\n\n\nCommunication (Kyle)\n\n\n\n\nProvided list of leads for upcoming Research Highlights\n\n\nAnnounced for final time the BDII retirement\n\n\nSlowly getting ownership on OSG Mailing lists.", 
+            "title": "28 March 2017"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#announcements", 
+            "text": "Last BDII deprecation  notice  has been sent. Poweroff is 4/Apr, 9:00 eastern  is-itb1 was powered off 12:00 28/Mar", 
+            "title": "Announcements:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#actionsignificant-items", 
+            "text": "BNL \"draining the queue\", two day maintenace soon.  CMS has completed work for the summer conferences, expect downturn in use.  Operations has (almost) completed upgrades of production services to RHEL6 or RHEL7  JIRA remains, ITB completed. Encountered small problems with repo.grid, to be repaired this week", 
+            "title": "Action/Significant Items:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#attendees", 
+            "text": "Scott, Kyle, Armen, Xin, Ken, Brian, Tim T, Susan", 
+            "title": "Attendees:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#apologies", 
+            "text": "Rob", 
+            "title": "Apologies:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#atlas-armen-xin", 
+            "text": "Production status:  Job Statistics:   Gratia report: 1.4M pilots, 4.3M walltime hours, cpu/walltime ratio of 77%  ATLAS dashboard reports 1.5M real jobs (16k on opportunistic sites)", 
+            "title": "Atlas (Armen &amp; Xin)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#fife-fabric-for-frontier-experiments-tanya", 
+            "text": "nova (724,945)  microboone (27,102)  des (142)  mu2e (108)  gm2 (10)", 
+            "title": "FIFE - FabrIc for Frontier Experiments (Tanya)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#cms-krista", 
+            "text": "CMS Production for the week (3/21-3/27):  10,491,247 hours  405,686 pilots", 
+            "title": "CMS (Krista)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#grid-operations-center-scott", 
+            "text": "GOC Services Availability/Reliability  Current Status:   Reports current:   please observe the version and capacity reports (BDII based) are no longer updated    PerfSonar    Release note  Production release, condor collectors, repo1/2, minor operations on OIM, MyOSG, Some internal machines.  repo update was challenging, repo depends on repo    RHEL5 status board  BDII: on 31/Mar SLA expires, 4/Apr 9:00 (eastern) both instances will be powered off.  is-itb1 was powered off 12:00 28/Mar    PerfSonar components temporarily have \"development\" status.  Experts have access without release schedule constraints.", 
+            "title": "Grid Operations Center (Scott)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#production-support-ken", 
+            "text": "Still trying to set up the meeting for the hosted CE for GlueX  Will start looking into more sites for opportunistic VOs (was on back burner due to low demand from the main VOs)", 
+            "title": "Production Support (Ken)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#software-brian-l", 
+            "text": "OSG 3.3.24  (April):     lcmaps-voms-plugin: Dropped from the previous release, targeting April  cvmfs 2.3.4: broken repos when restarting autofs  frontier-squid-3 update in upcoming that fixes crashes under heavy load  Investigating broken tarball symlinks in OASIS   Other stuff:     Updating VOMS Admin server  Issues with WLCG accounting for Wisconsin CMS CEs  Adding new documentation on using a load balancer (LVS) with GridFTP [DONE]  Test pre-release versions of HTCondor on Madison ITB [IN PROGRESS]  Migrating OSG Display to use GR CC queries instead of Gratia [IN PROGRESS]  Migrating APEL report to use GR CC queries instead of Gratia [IN PROGRESS]  Overhauling the Gratia documentation [IN PROGRESS]", 
+            "title": "Software (Brian L.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#release-tim-t", 
+            "text": "", 
+            "title": "Release (Tim T.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#release-schedule", 
+            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      Special  3.3.23  TBD  TBD  TBD     April  3.3.24  2017-03-27  2017-04-03  2017-04-11     May  3.3.25  2017-04-25  2017-05-01  2017-05-09     June  3.3.26  2017-05-30  2017-06-05  2017-06-13  5 week cycle      Data Release  3.3.22-2  VO Package v72    20 3D 20SOFTWARE 20AND 20labels 20 3D 203.3.24 20ORDER 20BY 20status 20ASC 2C 20priority 20DESC 2C 20assignee 20ASC\">April 11th Release  - OSG 3.3.24  LCMAPS VOMS plugin  Require VOMS attribute checking in LCMAPS VOMS plugin  Update default lcmaps.db to support LCMAPS VOMS plugin    Upcoming: Check VMOS attributes in LCMAPS  HTCondor-CE 2.1.5  htcondor-ce-slurm  Don't disable LCMAPS VOMS attribute testing    CVMFS 2.3.5  Restarting autofs breaks CVMFS automounts", 
+            "title": "Release Schedule"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#security-susan", 
+            "text": "", 
+            "title": "Security (Susan)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/28March2017/#communication-kyle", 
+            "text": "Provided list of leads for upcoming Research Highlights  Announced for final time the BDII retirement  Slowly getting ownership on OSG Mailing lists.", 
+            "title": "Communication (Kyle)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nZoom coordinates: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\n\n\nAnnouncements:\n\n\n\n\nLast BDII deprecation \nnotice\n has been sent. Poweroff is 4/Apr, 9:00 eastern\n\n\n\n\nAction/Significant Items:\n\n\n\n\nNew oasis repository for Icarus\n\n\nCMS expects a downturn in usage soon\n\n\n\n\nAttendees:\n\n\n\n\nScott, Kyle, Tim T, Krista, Armen, Brian L, Tanya, Zalak\n\n\n\n\nApologies:\n\n\n\n\nKen H, Xin, Rob Q\n\n\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nATLAS production status: \n\n\nUSATLAS total production over the past week was overall stable, at the average level of 60-70K running job slots.\n\n\nSome strange behavior from OSG-\nGOC interface, noticed in ggus:126817, 126569, 127040, 126396, when the ticket is auto opened, or messages auto repeated. \n\n\n\n\n\n\nJob Statistics: \n\n\ngratia reported 2.4M pilot jobs, with 5.3M walltime hours, and CPU/Walltime ratio of 83%\n\n\nATLAS dashboard reported 2.2M real jobs for last week (among them 24k ran on opportunistic OSG resources)\n\n\n\n\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\n\n\n1/2 Mhrs, mostly NOvA\n\n\n\n\nCMS (Krista)\n\n\n\n\nWork in preparation for winter conferences has completed, expect a downturn in usage\n\n\nCMS Production for the week (3/14-3/20):\n\n\n12,500,786 hours\n\n\n367,139 pilots\n\n\n\n\n\n\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status: \n\n\nReports current: \n\n\nplease observe the version and capacity reports (BDII based) are no longer updated\n\n\n\n\n\n\nPerfSonar\n\n\n\n\n\n\nRelease note\n\n\nITB release, condor collectors, repo1/2, minor operations on OIM, MyOSG, Some internal machines.\n\n\nrepo seems to have lots of old stuff, can it be cleaned up?\n\n\n\n\n\n\nRHEL5 status board\n\n\nBDII: on 31/Mar SLA expires, 4/Apr 9:00 (eastern) both instances will be powered off.\n\n\nPerfSonar components temporarily have \"development\" status.\n\n\nExperts have access without release schedule constraints.\n\n\n\n\n\n\nTicket exchange problems, believed to be fixed. Please report any observed problems.\n\n\n\n\nProduction Support (Ken)\n\n\nSoftware (Brian L.)\n\n\nOSG 3.3.24\n (April):  \n\n\n\n\nlcmaps-voms-plugin: Dropped from the previous release, targeting April\n\n\ncvmfs 2.3.4: broken repos when restarting autofs\n\n\nfrontier-squid bug fix: logrotation + selinux broken\n\n\nInvestigating broken tarball symlinks in OASIS\n\n\n\n\nOther stuff:  \n\n\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\nMigrating OSG Display to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nMigrating APEL report to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nAdding new documentation on using a load balancer (LVS) with !GridFTP [IN PROGRESS]\n\n\nOverhauling the Gratia documentation [IN PROGRESS]\n\n\n\n\nRelease (Tim T.)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nSpecial\n\n\n3.3.23\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\nApril\n\n\n3.3.24\n\n\n2017-03-27\n\n\n2017-04-03\n\n\n2017-04-11\n\n\n\n\n\n\n\n\nMay\n\n\n3.3.25\n\n\n2017-04-25\n\n\n2017-05-01\n\n\n2017-05-09\n\n\n\n\n\n\n\n\nJune\n\n\n3.3.26\n\n\n2017-05-30\n\n\n2017-06-05\n\n\n2017-06-13\n\n\n5 week cycle\n\n\n\n\n\n\n\n\n\n\nData Release 3.3.22-1\n\n\nVO Package v72\n\n\n\n\n\n\nOSG 3.3.22\n\n\nPulled XRootD 4.6.0\n\n\n\n\n\n\n\n\nSecurity (Susan)\n\n\nCommunication (Kyle)\n\n\n\n\nAHM Went well - Twitter well received\n\n\nNew list of research highlights gathered - coming soon.\n\n\nBDII Announcement sent and talked about at WLCG Meeting", 
+            "title": "21 March 2017"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#announcements", 
+            "text": "Last BDII deprecation  notice  has been sent. Poweroff is 4/Apr, 9:00 eastern", 
+            "title": "Announcements:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#actionsignificant-items", 
+            "text": "New oasis repository for Icarus  CMS expects a downturn in usage soon", 
+            "title": "Action/Significant Items:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#attendees", 
+            "text": "Scott, Kyle, Tim T, Krista, Armen, Brian L, Tanya, Zalak", 
+            "title": "Attendees:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#apologies", 
+            "text": "Ken H, Xin, Rob Q", 
+            "title": "Apologies:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#atlas-armen-xin", 
+            "text": "ATLAS production status:   USATLAS total production over the past week was overall stable, at the average level of 60-70K running job slots.  Some strange behavior from OSG- GOC interface, noticed in ggus:126817, 126569, 127040, 126396, when the ticket is auto opened, or messages auto repeated.     Job Statistics:   gratia reported 2.4M pilot jobs, with 5.3M walltime hours, and CPU/Walltime ratio of 83%  ATLAS dashboard reported 2.2M real jobs for last week (among them 24k ran on opportunistic OSG resources)", 
+            "title": "Atlas (Armen &amp; Xin)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#fife-fabric-for-frontier-experiments-tanya", 
+            "text": "1/2 Mhrs, mostly NOvA", 
+            "title": "FIFE - FabrIc for Frontier Experiments (Tanya)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#cms-krista", 
+            "text": "Work in preparation for winter conferences has completed, expect a downturn in usage  CMS Production for the week (3/14-3/20):  12,500,786 hours  367,139 pilots", 
+            "title": "CMS (Krista)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#grid-operations-center-scott", 
+            "text": "GOC Services Availability/Reliability  Current Status:   Reports current:   please observe the version and capacity reports (BDII based) are no longer updated    PerfSonar    Release note  ITB release, condor collectors, repo1/2, minor operations on OIM, MyOSG, Some internal machines.  repo seems to have lots of old stuff, can it be cleaned up?    RHEL5 status board  BDII: on 31/Mar SLA expires, 4/Apr 9:00 (eastern) both instances will be powered off.  PerfSonar components temporarily have \"development\" status.  Experts have access without release schedule constraints.    Ticket exchange problems, believed to be fixed. Please report any observed problems.", 
+            "title": "Grid Operations Center (Scott)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#production-support-ken", 
+            "text": "", 
+            "title": "Production Support (Ken)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#software-brian-l", 
+            "text": "OSG 3.3.24  (April):     lcmaps-voms-plugin: Dropped from the previous release, targeting April  cvmfs 2.3.4: broken repos when restarting autofs  frontier-squid bug fix: logrotation + selinux broken  Investigating broken tarball symlinks in OASIS   Other stuff:     Test pre-release versions of HTCondor on Madison ITB [IN PROGRESS]  Migrating OSG Display to use GR CC queries instead of Gratia [IN PROGRESS]  Migrating APEL report to use GR CC queries instead of Gratia [IN PROGRESS]  Adding new documentation on using a load balancer (LVS) with !GridFTP [IN PROGRESS]  Overhauling the Gratia documentation [IN PROGRESS]", 
+            "title": "Software (Brian L.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#release-tim-t", 
+            "text": "", 
+            "title": "Release (Tim T.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#release-schedule", 
+            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      Special  3.3.23  TBD  TBD  TBD     April  3.3.24  2017-03-27  2017-04-03  2017-04-11     May  3.3.25  2017-04-25  2017-05-01  2017-05-09     June  3.3.26  2017-05-30  2017-06-05  2017-06-13  5 week cycle      Data Release 3.3.22-1  VO Package v72    OSG 3.3.22  Pulled XRootD 4.6.0", 
+            "title": "Release Schedule"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#security-susan", 
+            "text": "", 
+            "title": "Security (Susan)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/21March2017/#communication-kyle", 
+            "text": "AHM Went well - Twitter well received  New list of research highlights gathered - coming soon.  BDII Announcement sent and talked about at WLCG Meeting", 
+            "title": "Communication (Kyle)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\nAttendees:\n\n\n\n\nScott, Brian L., Tim T.\n\n\n\n\nApologies:\n\n\n\n\nArmen (travel), Rob (vacation), Xin (travel), Kyle (travel), Tanya\n\n\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nGeneral production status. \n\n\nrunning smoothly, no issues to report\n\n\n\n\n\n\nJob statistics for last week.     \n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (Krista)\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status: \n\n\nReports current: \n\n\nPerfSonar\n\n\n\n\n\n\n\n\n30Mhr week, looks like the new normal\n\n\n\n\n\n\n\n\n\n\n\n\nNo release, AHM\n\n\nNext cycle, condor collectors, repo1/2, minor operations on OIM, MyOSG, Some internal machines.\n\n\nRHEL5 status board\n\n\nBDII failure on Sunday (12/Mar), is2. As of 31/Mar SLA expires.\n\n\nPerfSonar components temporarily have \"development\" status.\n\n\nExperts have access without release schedule constraints.\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\nSoftware (Brian L.)\n\n\nOSG 3.3.23\n (April):  \n\n\n\n\nlcmaps-voms-plugin: Dropped from the previous release, targeting April\n\n\ncvmfs bug fix: broken repos when restarting autofs\n\n\nfrontier-squid bug fix: logrotation + selinux broken\n\n\n\n\nOther stuff:  \n\n\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\nMigrating OSG Display to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nMigrating APEL report to use GR\nCC queries instead of Gratia [IN PROGRESS]\n\n\nAdding new documentation on using a load balancer (LVS) with !GridFTP [IN PROGRESS]\n\n\nOverhauling the Gratia documentation [IN PROGRESS]\n\n\n\n\nRelease (Tim T.)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nMarch\n\n\n3.3.22\n\n\n2017-02-27\n\n\n2017-03-06\n\n\n2017-03-14\n\n\n\n\n\n\n\n\nApril\n\n\n3.3.23\n\n\n2017-03-27\n\n\n2017-04-03\n\n\n2017-04-11\n\n\n\n\n\n\n\n\nMay\n\n\n3.3.24\n\n\n2017-04-25\n\n\n2017-05-01\n\n\n2017-05-09\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOSG 3.3.22\n\n\n\n\nHTCondor: Patched to avoid Job Router crash when submit requirements fail\n\n\nNew default configuration: GUMS uses proper TLS version(s) with VOMS admin\n\n\nBLAHP 1.18.29: Better Slurm integration, fixed problem with proxy refresh\n\n\nHTCondor-CE 2.1.4: Respect 'RequestCpus', Added JSON attributes for AGIS\n\n\nGratia probe 1.17.4: Now picks up 'RequestCpus' with HTCondor-CE\n\n\nUpdate to CVMFS 2.3.3\n\n\nUpdate to GlideinWMS 3.2.18\n\n\nUpdate to XRootD 4.6.0\n\n\nHDFS: GridFTP prints proper error message when HDFS quota is exhausted\n\n\nVOMS 2.0.14-1.3: Now validates top-level group of proxy\n\n\n\n\n\n\n\n\nUpcoming\n\n\n\n\nHTCondor 8.6.1: New stable series of HTCondor in Upcoming\n\n\nUpdate to frontier-squid 3.5.24\n\n\n\n\n\n\n\n\nSecurity (Susan)\n\n\nCommunication (Kyle)\n\n\n\n\nCollected Research Highlight list for upcoming year\n\n\nDocumented on social media the ongoing events of AHM", 
+            "title": "14 March 2017"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#announcements", 
+            "text": "", 
+            "title": "Announcements:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#actionsignificant-items", 
+            "text": "", 
+            "title": "Action/Significant Items:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#attendees", 
+            "text": "Scott, Brian L., Tim T.", 
+            "title": "Attendees:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#apologies", 
+            "text": "Armen (travel), Rob (vacation), Xin (travel), Kyle (travel), Tanya", 
+            "title": "Apologies:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#atlas-armen-xin", 
+            "text": "General production status.   running smoothly, no issues to report    Job statistics for last week.", 
+            "title": "Atlas (Armen &amp; Xin)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#fife-fabric-for-frontier-experiments-tanya", 
+            "text": "", 
+            "title": "FIFE - FabrIc for Frontier Experiments (Tanya)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#cms-krista", 
+            "text": "", 
+            "title": "CMS (Krista)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#grid-operations-center-scott", 
+            "text": "GOC Services Availability/Reliability  Current Status:   Reports current:   PerfSonar     30Mhr week, looks like the new normal       No release, AHM  Next cycle, condor collectors, repo1/2, minor operations on OIM, MyOSG, Some internal machines.  RHEL5 status board  BDII failure on Sunday (12/Mar), is2. As of 31/Mar SLA expires.  PerfSonar components temporarily have \"development\" status.  Experts have access without release schedule constraints.", 
+            "title": "Grid Operations Center (Scott)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#production-support-ken", 
+            "text": "", 
+            "title": "Production Support (Ken)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#software-brian-l", 
+            "text": "OSG 3.3.23  (April):     lcmaps-voms-plugin: Dropped from the previous release, targeting April  cvmfs bug fix: broken repos when restarting autofs  frontier-squid bug fix: logrotation + selinux broken   Other stuff:     Test pre-release versions of HTCondor on Madison ITB [IN PROGRESS]  Migrating OSG Display to use GR CC queries instead of Gratia [IN PROGRESS]  Migrating APEL report to use GR CC queries instead of Gratia [IN PROGRESS]  Adding new documentation on using a load balancer (LVS) with !GridFTP [IN PROGRESS]  Overhauling the Gratia documentation [IN PROGRESS]", 
+            "title": "Software (Brian L.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#release-tim-t", 
+            "text": "", 
+            "title": "Release (Tim T.)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#release-schedule", 
+            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      March  3.3.22  2017-02-27  2017-03-06  2017-03-14     April  3.3.23  2017-03-27  2017-04-03  2017-04-11     May  3.3.24  2017-04-25  2017-05-01  2017-05-09        OSG 3.3.22   HTCondor: Patched to avoid Job Router crash when submit requirements fail  New default configuration: GUMS uses proper TLS version(s) with VOMS admin  BLAHP 1.18.29: Better Slurm integration, fixed problem with proxy refresh  HTCondor-CE 2.1.4: Respect 'RequestCpus', Added JSON attributes for AGIS  Gratia probe 1.17.4: Now picks up 'RequestCpus' with HTCondor-CE  Update to CVMFS 2.3.3  Update to GlideinWMS 3.2.18  Update to XRootD 4.6.0  HDFS: GridFTP prints proper error message when HDFS quota is exhausted  VOMS 2.0.14-1.3: Now validates top-level group of proxy     Upcoming   HTCondor 8.6.1: New stable series of HTCondor in Upcoming  Update to frontier-squid 3.5.24", 
+            "title": "Release Schedule"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#security-susan", 
+            "text": "", 
+            "title": "Security (Susan)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/14March2017/#communication-kyle", 
+            "text": "Collected Research Highlight list for upcoming year  Documented on social media the ongoing events of AHM", 
+            "title": "Communication (Kyle)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/Canceled/", 
+            "text": "The OSG Production Meeting has been canceled this week.", 
+            "title": "7 March 2017 Canceled"
+        }, 
+        {
+            "location": "/WeeklyMinutes/Canceled/#the-osg-production-meeting-has-been-canceled-this-week", 
+            "text": "", 
+            "title": "The OSG Production Meeting has been canceled this week."
         }, 
         {
             "location": "/WeeklyMinutes/28Feb2017/", 

@@ -42,7 +42,7 @@
         }, 
         {
             "location": "/WeeklyMinutes/02May2017/", 
-            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\nAttendees:\n\n\nApologies: Brian L and Tim T (Condor Week), Scott (Holiday)\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nGeneral production status. \n\n\nJob statistics for last week.\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (Krista)\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status: \n\n\nReports current: \n\n\nPerfSonar\n\n\n\n\n\n\nProduction Support (Ken)\n\n\nSoftware (Brian L.)\n\n\nRelease (Tim T.)\n\n\nRelease Schedule\n\n\nSecurity (Susan)\n\n\nCommunication (Kyle)\n\n\n\n\nPEARC17 info distribution continues\n\n\nRequest has been made to add GRACC to OSG Web Pages - https://ticket.grid.iu.edu/33657 (On the About page?)", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\nAttendees:\n\n\nApologies: Brian L and Tim T (Condor Week), Scott (Holiday)\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nGeneral production status. \n\n\nJob statistics for last week.\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (Krista)\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status: \n\n\nReports current: \n\n\nPerfSonar\n\n\n\n\n\n\nOperations Last Week\n\n\n\n\nRelease. OIM, MyOSG, Display, Ticket Exchange\n\n\nUpdated storage on PerfSONAR machines\n\n\nCertificate outage late Tuesday to early Wednesday\n\n\nRoot Cause Analysis is available at https://twiki.grid.iu.edu/bin/view/Operations/OIMCertificateIssuingRCA\n\n\nResolution Notification is at https://osggoc.blogspot.com/2017/04/resolved-osg-pki-currently-experiencing.html\n\n\n\n\n\n\n\n\nOperations This Week\n\n\n\n\nSome fallout from the storage increase Monday. This was resolved quickly \n\n\nMaintenance notification should be sent by the time this meeting starts\n\n\nAdd link to notification here\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\nSoftware (Brian L.)\n\n\nRelease (Tim T.)\n\n\nRelease Schedule\n\n\nSecurity (Susan)\n\n\nCommunication (Kyle)", 
             "title": "2 May 2017"
         }, 
         {
@@ -86,6 +86,16 @@
             "title": "Grid Operations Center (Scott)"
         }, 
         {
+            "location": "/WeeklyMinutes/02May2017/#operations-last-week", 
+            "text": "Release. OIM, MyOSG, Display, Ticket Exchange  Updated storage on PerfSONAR machines  Certificate outage late Tuesday to early Wednesday  Root Cause Analysis is available at https://twiki.grid.iu.edu/bin/view/Operations/OIMCertificateIssuingRCA  Resolution Notification is at https://osggoc.blogspot.com/2017/04/resolved-osg-pki-currently-experiencing.html", 
+            "title": "Operations Last Week"
+        }, 
+        {
+            "location": "/WeeklyMinutes/02May2017/#operations-this-week", 
+            "text": "Some fallout from the storage increase Monday. This was resolved quickly   Maintenance notification should be sent by the time this meeting starts  Add link to notification here", 
+            "title": "Operations This Week"
+        }, 
+        {
             "location": "/WeeklyMinutes/02May2017/#production-support-ken", 
             "text": "", 
             "title": "Production Support (Ken)"
@@ -112,7 +122,7 @@
         }, 
         {
             "location": "/WeeklyMinutes/02May2017/#communication-kyle", 
-            "text": "PEARC17 info distribution continues  Request has been made to add GRACC to OSG Web Pages - https://ticket.grid.iu.edu/33657 (On the About page?)", 
+            "text": "", 
             "title": "Communication (Kyle)"
         }, 
         {

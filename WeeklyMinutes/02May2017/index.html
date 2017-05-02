@@ -91,8 +91,6 @@
         
             <li><a class="toctree-l4" href="#operations-this-week">Operations This Week</a></li>
         
-            <li><a class="toctree-l4" href="#report-on-ggus-ticket-synchronization-marina">Report on GGUS Ticket Synchronization (Marina)</a></li>
-        
         </ul>
     
 
@@ -111,7 +109,7 @@
         </ul>
     
 
-    <li class="toctree-l3"><a href="#security-susan">Security (Susan)</a></li>
+    <li class="toctree-l3"><a href="#security-jeny">Security (Jeny)</a></li>
     
 
     <li class="toctree-l3"><a href="#communication-kyle">Communication (Kyle)</a></li>
@@ -267,15 +265,15 @@
 </ul>
 </li>
 </ul>
-<h3 id="report-on-ggus-ticket-synchronization-marina">Report on GGUS Ticket Synchronization (Marina)</h3>
-<ul>
-<li>"notify on resolution" vs "notify on update"</li>
-</ul>
 <h2 id="production-support-ken">Production Support (Ken)</h2>
 <h2 id="software-brian-l">Software (Brian L.)</h2>
 <h2 id="release-tim-t">Release (Tim T.)</h2>
 <h3 id="release-schedule">Release Schedule</h3>
-<h2 id="security-susan">Security (Susan)</h2>
+<h2 id="security-jeny">Security (Jeny)</h2>
+<ul>
+<li>Received a report from Bob Ball (MWT2, AGLT2) about some well-known IPS and IDS as TippingPoint and FortiGuard triggering network blockings during any TLS handshake that contains a client grid proxy (RFC3820). These filters aer targeting a vulnerability in GnuTLS library (CVE-2017-5334). This vulnerability is a double-free in GnuTLS; it allows an attacker to bypass security restrictions by presenting a specially crafted X.509 certificate. 
+   * VOMS-Admin new version didn't make it for May release. EGI will hold their public announcement until OSG has a fix/patch for the vulnerabilities in Apache Struts.</li>
+</ul>
 <h2 id="communication-kyle">Communication (Kyle)</h2>
 <ul>
 <li>PEARC17 info distribution continues</li>

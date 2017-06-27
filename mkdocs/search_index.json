@@ -42,7 +42,7 @@
         }, 
         {
             "location": "/WeeklyMinutes/27June2017/", 
-            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\nOperations Slack Channel\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\nAttendees:\n\n\nApologies:\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nProduction Status:\n\n\nJob statistics: \n\n\nOSG GRACC: 1.7M pilots, 12M walltime hours\n\n\nATLAS dashboard: 1.6M jobs (33k on opportunistic resources)\n\n\n\n\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (David)\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status\n\n\nPerfSonar\n\n\n\n\nProduction release\n\n\nvoms-admin update, OS updates completed\n\n\nOASIS modification deferred, next cycle\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\nSoftware (Brian)\n\n\nRelease (Tim)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nJuly\n\n\n3.4.1, 3.3.26\n\n\n2017-06-26\n\n\n2017-07-03\n\n\n2017-07-11\n\n\nIndependence Day\n\n\n\n\n\n\nAugust\n\n\n3.4.2, 3.3.27\n\n\n2017-07-24\n\n\n2017-07-31\n\n\n2017-08-08\n\n\n\n\n\n\n\n\nSeptember\n\n\n3.4.3, 3.3.28\n\n\n2017-08-28\n\n\n2017-09-05\n\n\n2017-09-12\n\n\n5 week cycle\n\n\n\n\n\n\n\n\nSecurity (Jeny)\n\n\nCommunication (Kyle)", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\nOperations Slack Channel\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\nAttendees:\n\n\nApologies: Tim\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nProduction Status:\n\n\nJob statistics: \n\n\nOSG GRACC: 1.7M pilots, 12M walltime hours\n\n\nATLAS dashboard: 1.6M jobs (33k on opportunistic resources)\n\n\n\n\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (David)\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status\n\n\nPerfSonar\n\n\n\n\nProduction release\n\n\nvoms-admin update, OS updates completed\n\n\nOASIS modification deferred, next cycle\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\nSoftware (Brian)\n\n\n\n\nGlobus toolkit support policy\n completed, announcement incoming\n\n\nVOMS-Admin\n, \nGUMS\n, \nBeStMan\n retirement policies available\n\n\nTransition documentation for GUMS in progress; edg-mkgridmap documentation \nhere\n\n\n\n\nOSG 3.4.1, 3.3.26 (July):  \n\n\n\n\nHTCondor 8.6.4, 8.7.2\n\n\nHadoop: NameNode infinte loop fix\n\n\nHTCondor-CE\n\n\nblahp\n\n\ngratia-probes\n\n\nxrootd-dsi 1.3+\n\n\nosg-configure\n\n\ncondor-cron\n\n\nrsv\n\n\n\n\nOther Projects:  \n\n\n\n\nOSG 3.4 preparation\n [IN PROGRESS]\n\n\nMigrating internal documentation [IN PROGRESS]\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\n\n\nRelease (Tim)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nJuly\n\n\n3.4.1, 3.3.26\n\n\n2017-06-26\n\n\n2017-07-03\n\n\n2017-07-11\n\n\nIndependence Day\n\n\n\n\n\n\nAugust\n\n\n3.4.2, 3.3.27\n\n\n2017-07-24\n\n\n2017-07-31\n\n\n2017-08-08\n\n\n\n\n\n\n\n\nSeptember\n\n\n3.4.3, 3.3.28\n\n\n2017-08-28\n\n\n2017-09-05\n\n\n2017-09-12\n\n\n5 week cycle\n\n\n\n\n\n\n\n\nSecurity (Jeny)\n\n\nCommunication (Kyle)", 
             "title": "27 June 2017"
         }, 
         {
@@ -61,9 +61,9 @@
             "title": "Attendees:"
         }, 
         {
-            "location": "/WeeklyMinutes/27June2017/#apologies", 
+            "location": "/WeeklyMinutes/27June2017/#apologies-tim", 
             "text": "", 
-            "title": "Apologies:"
+            "title": "Apologies: Tim"
         }, 
         {
             "location": "/WeeklyMinutes/27June2017/#atlas-armen-xin", 
@@ -92,7 +92,7 @@
         }, 
         {
             "location": "/WeeklyMinutes/27June2017/#software-brian", 
-            "text": "", 
+            "text": "Globus toolkit support policy  completed, announcement incoming  VOMS-Admin ,  GUMS ,  BeStMan  retirement policies available  Transition documentation for GUMS in progress; edg-mkgridmap documentation  here   OSG 3.4.1, 3.3.26 (July):     HTCondor 8.6.4, 8.7.2  Hadoop: NameNode infinte loop fix  HTCondor-CE  blahp  gratia-probes  xrootd-dsi 1.3+  osg-configure  condor-cron  rsv   Other Projects:     OSG 3.4 preparation  [IN PROGRESS]  Migrating internal documentation [IN PROGRESS]  Test pre-release versions of HTCondor on Madison ITB [IN PROGRESS]", 
             "title": "Software (Brian)"
         }, 
         {

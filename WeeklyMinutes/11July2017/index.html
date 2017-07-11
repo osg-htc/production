@@ -267,6 +267,13 @@
 <li></li>
 </ul>
 <h2 id="atlas-armen-xin">Atlas (Armen &amp; Xin)</h2>
+<ul>
+<li>Production Status:<ul>
+<li>USATLAS total production over the past week was quite stable, at the average level of 65-75K running job slots.</li>
+<li>We got a clarification from Guenter Grein about the change on the ggus side, which caused the synchronization issue. That change has been rolled back now.</li>
+</ul>
+</li>
+</ul>
 <h2 id="fife-fabric-for-frontier-experiments-tanya">FIFE - FabrIc for Frontier Experiments (Tanya)</h2>
 <h2 id="cms-david">CMS (David)</h2>
 <h2 id="grid-operations-center-scott">Grid Operations Center (Scott)</h2>
@@ -330,6 +337,71 @@
 </tr>
 </tbody>
 </table>
+<ul>
+<li>Software Release Tomorrow<ul>
+<li>Both<ul>
+<li>Fix bug in lcmaps-plugins-verify-proxy that could cause HTCondor-CE schedd to crash</li>
+<li>osg-configure update<ul>
+<li>use GUMS JSON interface, do not pull in gums-client</li>
+<li>Do not pull in HTCondor by default</li>
+</ul>
+</li>
+<li>BLAHP: Fix multicore requests for SLURM batch systems</li>
+<li>HTCondor-CE 2.2.1<ul>
+<li>Pass memory requirement to non-HTCondor batch systems</li>
+<li>Correct CPU allocation for whole node jobs</li>
+</ul>
+</li>
+<li>Gratia probes<ul>
+<li>Supports whole node jobs</li>
+<li>Able to include arbitrary ClassAd attributes in Gratia usage records (LIGO)</li>
+</ul>
+</li>
+<li>CVMFS client bug fix for failed mounts when very large groups are present</li>
+<li>GridFTP server now used correct configuration with xrootd-dsi</li>
+<li>Enchanced gridftp-dsi-posix<ul>
+<li>Added MD5 checksum</li>
+<li>Added GRIDFTP_APPEND_XROOTD_CGI hook to support XRootD space tookens</li>
+</ul>
+</li>
+<li>condor_cron: eliminate email on restart</li>
+<li>RSV<ul>
+<li>parse condor_cron condor_q output properly</li>
+<li>software.grid.iu.edu -&gt; repo.grid.iu.edu</li>
+</ul>
+</li>
+<li>osg-gridftp now pulls in osg-configure-misc</li>
+<li>Iternal tools<ul>
+<li>osg-build update</li>
+<li>Drop unused tests from osg-test</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>OSG 3.4.1<ul>
+<li>HTCondor-CE-Bosco to HTCondor without certificates on the remote cluster</li>
+<li>HTCondor 8.6.4 - minor bug fixes</li>
+<li>HTCondor 8.7.2 in upcoming</li>
+</ul>
+</li>
+<li>OSG 3.3.26<ul>
+<li>HDFS: fix for NameNode infinite loop</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Data Release Thursday<ul>
+<li>IGTF 1.84<ul>
+<li>Updated ROSA root certificate with extended 20yr valitity (RO)</li>
+<li>Updated contact details for CyGrid CA following transition to CYNET (CY)</li>
+<li>Removed obsoleted KISTI-2007 trust anchor - replaced by KISTIv3 (KR)</li>
+<li>Removed expiring LACGrid trust anchor a9082267 (BR)</li>
+<li>Added UK Pathfinder AAAI CA 1 to unaccredited (misc) area (UK)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h2 id="security-jeny">Security (Jeny)</h2>
 <ul>
 <li>No new vulnerabilities/incidents.</li>

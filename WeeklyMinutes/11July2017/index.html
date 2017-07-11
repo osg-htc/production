@@ -278,6 +278,17 @@
 <li>No release this cycle</li>
 </ul>
 <h2 id="production-support-ken">Production Support (Ken)</h2>
+<ul>
+<li>Monthly highlights<ul>
+<li>Overall hours down to 120M from 133M in May. Difference due mostly to LHC (ALICE -1M, ATLAS -1.5 M, CMS -11.5M)</li>
+<li>2,000 CPU hours from GlueX at multiple sites</li>
+<li>OSG VO nearly flat (slight decrease)</li>
+</ul>
+</li>
+<li>FNAL and CERN resolved networking issues for protoDUNE jobs on CERN Tier0</li>
+<li>Working to get new HTCondor CE set up for NOvA use</li>
+<li>Received inquiry from LSST-DESC about computing resources in Europe (mostly EGI sites.) Waiting to hear from them on what site(s) they're targeting, and then move to act as a broker.</li>
+</ul>
 <h2 id="software-brian">Software (Brian)</h2>
 <h2 id="release-tim">Release (Tim)</h2>
 <h3 id="release-schedule">Release Schedule</h3>
@@ -319,12 +330,78 @@
 </tr>
 </tbody>
 </table>
-<h2 id="security-jeny">Security (Jeny)</h2>
-<h2 id="communication-kyle">Communication (Kyle)</h2>
 <ul>
-<li>Molcryst article posted - https://www.opensciencegrid.org/machine-learning-insights-into-molecular-science-using-the-open-science-grid/</li>
-<li>Globus statement distributed.</li>
+<li>Software Release Tomorrow<ul>
+<li>Both<ul>
+<li>Fix bug in lcmaps-plugins-verify-proxy that could cause HTCondor-CE schedd to crash</li>
+<li>osg-configure update<ul>
+<li>use GUMS JSON interface, do not pull in gums-client</li>
+<li>Do not pull in HTCondor by default</li>
 </ul>
+</li>
+<li>BLAHP: Fix multicore requests for SLURM batch systems</li>
+<li>HTCondor-CE 2.2.1<ul>
+<li>Pass memory requirement to non-HTCondor batch systems</li>
+<li>Correct CPU allocation for whole node jobs</li>
+</ul>
+</li>
+<li>Gratia probes<ul>
+<li>Supports whole node jobs</li>
+<li>Able to include arbitrary ClassAd attributes in Gratia usage records (LIGO)</li>
+</ul>
+</li>
+<li>CVMFS client bug fix for failed mounts when very large groups are present</li>
+<li>GridFTP server now used correct configuration with xrootd-dsi</li>
+<li>Enchanced gridftp-dsi-posix<ul>
+<li>Added MD5 checksum</li>
+<li>Added GRIDFTP_APPEND_XROOTD_CGI hook to support XRootD space tookens</li>
+</ul>
+</li>
+<li>condor_cron: eliminate email on restart</li>
+<li>RSV<ul>
+<li>parse condor_cron condor_q output properly</li>
+<li>software.grid.iu.edu -&gt; repo.grid.iu.edu</li>
+</ul>
+</li>
+<li>osg-gridftp now pulls in osg-configure-misc</li>
+<li>Iternal tools<ul>
+<li>osg-build update</li>
+<li>Drop unused tests from osg-test</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>OSG 3.4.1<ul>
+<li>HTCondor-CE-Bosco to HTCondor without certificates on the remote cluster</li>
+<li>HTCondor 8.6.4 - minor bug fixes</li>
+<li>HTCondor 8.7.2 in upcoming</li>
+</ul>
+</li>
+<li>OSG 3.3.26<ul>
+<li>HDFS: fix for NameNode infinite loop</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Data Release Thursday<ul>
+<li>IGTF 1.84<ul>
+<li>Updated ROSA root certificate with extended 20yr valitity (RO)</li>
+<li>Updated contact details for CyGrid CA following transition to CYNET (CY)</li>
+<li>Removed obsoleted KISTI-2007 trust anchor - replaced by KISTIv3 (KR)</li>
+<li>Removed expiring LACGrid trust anchor a9082267 (BR)</li>
+<li>Added UK Pathfinder AAAI CA 1 to unaccredited (misc) area (UK)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="security-jeny">Security (Jeny)</h2>
+<ul>
+<li>No new vulnerabilities/incidents.</li>
+<li>Progress on the configuration of OASIS Yubikey.</li>
+<li>Working on new CA bundle based on IGTF 1.84</li>
+</ul>
+<h2 id="communication-kyle">Communication (Kyle)</h2>
               
             </div>
           </div>

@@ -42,7 +42,7 @@
         }, 
         {
             "location": "/WeeklyMinutes/18July2017/", 
-            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\nOperations Slack Channel\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\nAttendees:\n\n\n*\n\n\nApologies:\n\n\n\n\n\n\n\n\nAtlas (Armen \n Xin)\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (David)\n\n\n\n\nActivity from CMS still expected to be bursty, some data re-reconstructed expected this week and MC production later \n\n\nUsage numbers down a bit from last week, 6.13M wall hours, 2.9M CPU hours, 238k jobs this week\n\n\nFNAL upgraded its opportunistic CE (USCMS-FNAL-WC1-CE3) beginning of this week -- ATLAS jobs seemed to be unaware of the downtime?  ATLAS jobs continued come in up until we had to bring the CE down.\n\n\nFNAL has this week had to schedule an emergency downtime to address a power breaker problem -- number of total slots roughly cut in half from 7AM-3pm CDT on Thursday.  Downtimes are in OIM as of this morning.\n\n\n\n\n\n\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status\n\n\nPerfSonar\n\n\n\n\nRelease note in preparation\n\n\nOperating system updates, reboots will be required\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\nSoftware (Mat)\n\n\nOSG 3.4.2, 3.3.27 (August):\n\n\n\n\nOSG-Configure bugfixes\n\n\nosg-configure -v\n was not producing a warning on some settings\n\n\nFirst-time run of \ngums-host-cron\n broken  (3.3 only)\n\n\n\n\n\n\nHTCondor-CE improvements:\n\n\nDo not hold running jobs that have expired proxies\n\n\nPlugin to do payload job auditing (i.e. recording who submitted a payload job). Pending HTCondor patch (3.4 only)\n\n\nDon't warn about not being configured unless on an OSG CE\n\n\n\n\n\n\nAdd a config option to the BLAHP to manually configure PBS flavor (i.e. PBS Pro vs. Torque or others)\n\n\nDrop client side verification of cert quota in \nosg-gridadmin-cert-request\n\n\nUse HTTPS to download CA certs in osg-ca-scripts\n\n\n\n\nOther Projects:\n\n\n\n\nOSG 3.4\n [DONE]\n\n\nMigrating internal documentation [IN PROGRESS]\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\n\n\nRelease (Tim)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nAugust\n\n\n3.4.2, 3.3.27\n\n\n2017-07-24\n\n\n2017-07-31\n\n\n2017-08-08\n\n\n\n\n\n\n\n\nSeptember\n\n\n3.4.3, 3.3.28\n\n\n2017-08-28\n\n\n2017-09-05\n\n\n2017-09-12\n\n\n5 week cycle\n\n\n\n\n\n\nOctober\n\n\n3.4.4, 3.3.29\n\n\n2017-09-25\n\n\n2017-10-02\n\n\n2017-10-10\n\n\n\n\n\n\n\n\n\n\n\n\nTarballs updated - to correct configuation issue that affects GFAL tools\n\n\nAugust 8th Software Release\n\n\nBoth\n\n\nUpdate gsi-openssh-server\n\n\n\n\n\n\nOSG 3.4.0\n\n\nMerge osg-ce packages (removing vestiges of GRAM)\n\n\n\n\n\n\nOSG 3.3.25\n\n\nJGlobus incorrectly refuses proxies with key usage\n\n\nHTCondor 8.4.12 - band-aid knob added for non-OSG customer\n\n\n\n\n\n\n\n\nSecurity (Jeny)\n\n\nCommunication (Kyle)\n\n\n\n\nStandard Maintenance Announcement\n\n\nContact with GlueX resumed about article\n\n\nTweeted about PEARC17 Award - Best Software and Data Paper -Data access for LIGO on the OSG\n\n\nBrian Bockelman, Duncan Brown, Peter Couvares, Edgar Hernandez, Derek Weitzel, Frank Wurthwein", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\nOperations Slack Channel\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\nAttendees:\n\n\n*\n\n\nApologies:\n\n\n\n\n\n\n\n\nAtlas (Armen \n Xin)\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\n\n\nSmooth sailing from an OSG perspective\n\n\nWorking with experiments to streamline workflows and improve efficiency\n\n\n\n\nCMS (David)\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status\n\n\nPerfSonar\n\n\n\n\nRelease note in preparation\n\n\nOperating system updates, reboots will be required\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\n\n\nCMS still lower than historical average; opportunistic use picking up the slack\n\n\n7-day average of pilot hours above 4 million (annualized pace of 1.44 B)\n\n\nWaiting on reply about LSST-DESC requests \n\n\n\n\nSoftware (Brian)\n\n\nRelease (Tim)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nJuly\n\n\n3.4.1, 3.3.26\n\n\n2017-06-26\n\n\n2017-07-03\n\n\n2017-07-11\n\n\nIndependence Day\n\n\n\n\n\n\nAugust\n\n\n3.4.2, 3.3.27\n\n\n2017-07-24\n\n\n2017-07-31\n\n\n2017-08-08\n\n\n\n\n\n\n\n\nSeptember\n\n\n3.4.3, 3.3.28\n\n\n2017-08-28\n\n\n2017-09-05\n\n\n2017-09-12\n\n\n5 week cycle\n\n\n\n\n\n\n\n\nSecurity (Jeny)\n\n\nCommunication (Kyle)\n\n\n\n\nStandard Maintenance Announcement\n\n\nContact with GlueX resumed about article\n\n\nTweeted about PEARC17 Award - Best Software and Data Paper -Data access for LIGO on the OSG\n\n\nBrian Bockelman, Duncan Brown, Peter Couvares, Edgar Hernandez, Derek Weitzel, Frank Wurthwein", 
             "title": "18 July 2017"
         }, 
         {
@@ -72,12 +72,12 @@
         }, 
         {
             "location": "/WeeklyMinutes/18July2017/#fife-fabric-for-frontier-experiments-tanya", 
-            "text": "", 
+            "text": "Smooth sailing from an OSG perspective  Working with experiments to streamline workflows and improve efficiency", 
             "title": "FIFE - FabrIc for Frontier Experiments (Tanya)"
         }, 
         {
             "location": "/WeeklyMinutes/18July2017/#cms-david", 
-            "text": "Activity from CMS still expected to be bursty, some data re-reconstructed expected this week and MC production later   Usage numbers down a bit from last week, 6.13M wall hours, 2.9M CPU hours, 238k jobs this week  FNAL upgraded its opportunistic CE (USCMS-FNAL-WC1-CE3) beginning of this week -- ATLAS jobs seemed to be unaware of the downtime?  ATLAS jobs continued come in up until we had to bring the CE down.  FNAL has this week had to schedule an emergency downtime to address a power breaker problem -- number of total slots roughly cut in half from 7AM-3pm CDT on Thursday.  Downtimes are in OIM as of this morning.", 
+            "text": "", 
             "title": "CMS (David)"
         }, 
         {
@@ -87,13 +87,13 @@
         }, 
         {
             "location": "/WeeklyMinutes/18July2017/#production-support-ken", 
-            "text": "", 
+            "text": "CMS still lower than historical average; opportunistic use picking up the slack  7-day average of pilot hours above 4 million (annualized pace of 1.44 B)  Waiting on reply about LSST-DESC requests", 
             "title": "Production Support (Ken)"
         }, 
         {
-            "location": "/WeeklyMinutes/18July2017/#software-mat", 
-            "text": "OSG 3.4.2, 3.3.27 (August):   OSG-Configure bugfixes  osg-configure -v  was not producing a warning on some settings  First-time run of  gums-host-cron  broken  (3.3 only)    HTCondor-CE improvements:  Do not hold running jobs that have expired proxies  Plugin to do payload job auditing (i.e. recording who submitted a payload job). Pending HTCondor patch (3.4 only)  Don't warn about not being configured unless on an OSG CE    Add a config option to the BLAHP to manually configure PBS flavor (i.e. PBS Pro vs. Torque or others)  Drop client side verification of cert quota in  osg-gridadmin-cert-request  Use HTTPS to download CA certs in osg-ca-scripts   Other Projects:   OSG 3.4  [DONE]  Migrating internal documentation [IN PROGRESS]  Test pre-release versions of HTCondor on Madison ITB [IN PROGRESS]", 
-            "title": "Software (Mat)"
+            "location": "/WeeklyMinutes/18July2017/#software-brian", 
+            "text": "", 
+            "title": "Software (Brian)"
         }, 
         {
             "location": "/WeeklyMinutes/18July2017/#release-tim", 
@@ -102,7 +102,7 @@
         }, 
         {
             "location": "/WeeklyMinutes/18July2017/#release-schedule", 
-            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      August  3.4.2, 3.3.27  2017-07-24  2017-07-31  2017-08-08     September  3.4.3, 3.3.28  2017-08-28  2017-09-05  2017-09-12  5 week cycle    October  3.4.4, 3.3.29  2017-09-25  2017-10-02  2017-10-10       Tarballs updated - to correct configuation issue that affects GFAL tools  August 8th Software Release  Both  Update gsi-openssh-server    OSG 3.4.0  Merge osg-ce packages (removing vestiges of GRAM)    OSG 3.3.25  JGlobus incorrectly refuses proxies with key usage  HTCondor 8.4.12 - band-aid knob added for non-OSG customer", 
+            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      July  3.4.1, 3.3.26  2017-06-26  2017-07-03  2017-07-11  Independence Day    August  3.4.2, 3.3.27  2017-07-24  2017-07-31  2017-08-08     September  3.4.3, 3.3.28  2017-08-28  2017-09-05  2017-09-12  5 week cycle", 
             "title": "Release Schedule"
         }, 
         {

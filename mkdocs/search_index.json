@@ -41,6 +41,81 @@
             "title": "Other OSG Meetings and Events"
         }, 
         {
+            "location": "/WeeklyMinutes/18July2017/", 
+            "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\nOperations Slack Channel\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\nAttendees:\n\n\n*\n\n\nApologies:\n\n\n\n\n\n\n\n\nAtlas (Armen \n Xin)\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\nCMS (David)\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status\n\n\nPerfSonar\n\n\n\n\nRelease note in preparation\n\n\nOperating system updates, reboots will be required\n\n\n\n\n\n\n\n\nProduction Support (Ken)\n\n\nSoftware (Brian)\n\n\nRelease (Tim)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nJuly\n\n\n3.4.1, 3.3.26\n\n\n2017-06-26\n\n\n2017-07-03\n\n\n2017-07-11\n\n\nIndependence Day\n\n\n\n\n\n\nAugust\n\n\n3.4.2, 3.3.27\n\n\n2017-07-24\n\n\n2017-07-31\n\n\n2017-08-08\n\n\n\n\n\n\n\n\nSeptember\n\n\n3.4.3, 3.3.28\n\n\n2017-08-28\n\n\n2017-09-05\n\n\n2017-09-12\n\n\n5 week cycle\n\n\n\n\n\n\n\n\nSecurity (Jeny)\n\n\nCommunication (Kyle)", 
+            "title": "18 July 2017"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#announcements", 
+            "text": "", 
+            "title": "Announcements:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#actionsignificant-items", 
+            "text": "", 
+            "title": "Action/Significant Items:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#attendees", 
+            "text": "*", 
+            "title": "Attendees:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#apologies", 
+            "text": "", 
+            "title": "Apologies:"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#atlas-armen-xin", 
+            "text": "", 
+            "title": "Atlas (Armen &amp; Xin)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#fife-fabric-for-frontier-experiments-tanya", 
+            "text": "", 
+            "title": "FIFE - FabrIc for Frontier Experiments (Tanya)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#cms-david", 
+            "text": "", 
+            "title": "CMS (David)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#grid-operations-center-scott", 
+            "text": "GOC Services Availability/Reliability  Current Status  PerfSonar   Release note in preparation  Operating system updates, reboots will be required", 
+            "title": "Grid Operations Center (Scott)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#production-support-ken", 
+            "text": "", 
+            "title": "Production Support (Ken)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#software-brian", 
+            "text": "", 
+            "title": "Software (Brian)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#release-tim", 
+            "text": "", 
+            "title": "Release (Tim)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#release-schedule", 
+            "text": "Name  Version  Development Freeze  Package Freeze  Release  Notes      July  3.4.1, 3.3.26  2017-06-26  2017-07-03  2017-07-11  Independence Day    August  3.4.2, 3.3.27  2017-07-24  2017-07-31  2017-08-08     September  3.4.3, 3.3.28  2017-08-28  2017-09-05  2017-09-12  5 week cycle", 
+            "title": "Release Schedule"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#security-jeny", 
+            "text": "", 
+            "title": "Security (Jeny)"
+        }, 
+        {
+            "location": "/WeeklyMinutes/18July2017/#communication-kyle", 
+            "text": "", 
+            "title": "Communication (Kyle)"
+        }, 
+        {
             "location": "/WeeklyMinutes/11July2017/", 
             "text": "4:00 PM Eastern (3:00 PM Central)\n\n\nJoin from PC, Mac, Linux, iOS or Android: https://IU.zoom.us/j/865253152\n\n\n(US Toll): +1 408-638-0968, PIN: 865-253-152# or +1 646-558-8656, PIN 865-253-152#\n\n\nOperations Slack Channel\n\n\n\n\nAnnouncements:\n\n\nAction/Significant Items:\n\n\n\n\nTicket exchange issues discussed, not reproducable or known to be caused by incorrect selections at creation time.\n\n\n\n\nAttendees:\n\n\n*\n\n\nApologies:\n\n\n\n\n\n\n\n\nAtlas (Armen \n Xin)\n\n\n\n\nProduction Status:\n\n\nUSATLAS total production over the past week was quite stable, at the average level of 65-75K running job slots.\n\n\nWe got a clarification from Guenter Grein about the change on the ggus side, which caused the synchronization issue. That change has been rolled back now.\n\n\n\n\n\n\n\n\nFIFE - FabrIc for Frontier Experiments (Tanya)\n\n\n\n\n21% of all FIFE jobs were running on the OSG during last 2 weeks\n\n\nNOvA 473K wall hours\n\n\nMU2E 282K wall hours\n\n\nGM2  131K wall hours !!!\n\n\nDUNE  82K wall hours\n\n\nDarkSide 61K wall hours\n\n\nCDF 53K wall hours\n\n\nDES 33K wall hours\n\n\nMicroBooNE 11K wall hours\n\n\nLArIAT 3K wall hours\n\n\n\n\nCMS (David)\n\n\n\n\nLHC coming back out of a technical stop last week, CMS work continues to be intermittent, dominated by user analysis.\n\n\n7.90M wall hours, 4.43M CPU hours, 215k jobs\n\n\nGgus ticket 129300 didn't manage to open at FNAL until later update.  https://ticket.opensciencegrid.org/34352  Test ticket opened yesterday propagated just fine.\n\n\n\n\nGrid Operations Center (Scott)\n\n\n\n\nGOC Services Availability/Reliability\n\n\nCurrent Status\n\n\nPerfSonar\n\n\n\n\nNo release this cycle\n\n\n\n\nProduction Support (Ken)\n\n\n\n\nMonthly highlights\n\n\nOverall hours down to 120M from 133M in May. Difference due mostly to LHC (ALICE -1M, ATLAS -1.5 M, CMS -11.5M)\n\n\n2,000 CPU hours from GlueX at multiple sites\n\n\nOSG VO nearly flat (slight decrease)\n\n\n\n\n\n\nFNAL and CERN resolved networking issues for protoDUNE jobs on CERN Tier0\n\n\nWorking to get new HTCondor CE set up for NOvA use\n\n\nReceived inquiry from LSST-DESC about computing resources in Europe (mostly EGI sites.) Waiting to hear from them on what site(s) they're targeting, and then move to act as a broker.\n\n\n\n\nSoftware (Brian)\n\n\nOSG 3.4.2, 3.3.27 (August):  \n\n\n\n\nHTCondor 8.4.12, 8.6.5, 8.7.3\n\n\nGSI OpenSSH 7.3p1c\n\n\njGlobus fix for accepting proxies with key usage\n\n\nExpecting a new GlideinWMS\n\n\n\n\nOther Projects:  \n\n\n\n\nOSG 3.4 preparation\n [IN PROGRESS]\n\n\nMigrating internal documentation [IN PROGRESS]\n\n\nTest pre-release versions of HTCondor on Madison ITB [IN PROGRESS]\n\n\n\n\nRelease (Tim)\n\n\nRelease Schedule\n\n\n\n\n\n\n\n\nName\n\n\nVersion\n\n\nDevelopment Freeze\n\n\nPackage Freeze\n\n\nRelease\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nJuly\n\n\n3.4.1, 3.3.26\n\n\n2017-06-26\n\n\n2017-07-03\n\n\n2017-07-11\n\n\nIndependence Day\n\n\n\n\n\n\nAugust\n\n\n3.4.2, 3.3.27\n\n\n2017-07-24\n\n\n2017-07-31\n\n\n2017-08-08\n\n\n\n\n\n\n\n\nSeptember\n\n\n3.4.3, 3.3.28\n\n\n2017-08-28\n\n\n2017-09-05\n\n\n2017-09-12\n\n\n5 week cycle\n\n\n\n\n\n\n\n\n\n\nSoftware Release Tomorrow\n\n\nBoth\n\n\nFix bug in lcmaps-plugins-verify-proxy that could cause HTCondor-CE schedd to crash\n\n\nosg-configure update\n\n\nuse GUMS JSON interface, do not pull in gums-client\n\n\nDo not pull in HTCondor by default\n\n\n\n\n\n\nBLAHP: Fix multicore requests for SLURM batch systems\n\n\nHTCondor-CE 2.2.1\n\n\nPass memory requirement to non-HTCondor batch systems\n\n\nCorrect CPU allocation for whole node jobs\n\n\n\n\n\n\nGratia probes\n\n\nSupports whole node jobs\n\n\nAble to include arbitrary ClassAd attributes in Gratia usage records (LIGO)\n\n\n\n\n\n\nCVMFS client bug fix for failed mounts when very large groups are present\n\n\nGridFTP server now used correct configuration with xrootd-dsi\n\n\nEnchanced gridftp-dsi-posix\n\n\nAdded MD5 checksum\n\n\nAdded GRIDFTP_APPEND_XROOTD_CGI hook to support XRootD space tookens\n\n\n\n\n\n\ncondor_cron: eliminate email on restart\n\n\nRSV\n\n\nparse condor_cron condor_q output properly\n\n\nsoftware.grid.iu.edu -\n repo.grid.iu.edu\n\n\n\n\n\n\nosg-gridftp now pulls in osg-configure-misc\n\n\nIternal tools\n\n\nosg-build update\n\n\nDrop unused tests from osg-test\n\n\n\n\n\n\n\n\n\n\nOSG 3.4.1\n\n\nHTCondor-CE-Bosco to HTCondor without certificates on the remote cluster\n\n\nHTCondor 8.6.4 - minor bug fixes\n\n\nHTCondor 8.7.2 in upcoming\n\n\n\n\n\n\nOSG 3.3.26\n\n\nHDFS: fix for NameNode infinite loop\n\n\n\n\n\n\n\n\n\n\nData Release Thursday\n\n\nIGTF 1.84\n\n\nUpdated ROSA root certificate with extended 20yr valitity (RO)\n\n\nUpdated contact details for CyGrid CA following transition to CYNET (CY)\n\n\nRemoved obsoleted KISTI-2007 trust anchor - replaced by KISTIv3 (KR)\n\n\nRemoved expiring LACGrid trust anchor a9082267 (BR)\n\n\nAdded UK Pathfinder AAAI CA 1 to unaccredited (misc) area (UK)\n\n\n\n\n\n\n\n\n\n\n\n\nSecurity (Jeny)\n\n\n\n\nNo new vulnerabilities/incidents.\n\n\nProgress on the configuration of OASIS Yubikey.\n\n\nWorking on new CA bundle based on IGTF 1.84\n\n\n\n\nCommunication (Kyle)\n\n\n\n\nMolcryst article posted - https://www.opensciencegrid.org/machine-learning-insights-into-molecular-science-using-the-open-science-grid/\n\n\nGlobus statement distributed.", 
             "title": "11 July 2017"

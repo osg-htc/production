@@ -12,6 +12,12 @@
     
         
     <url>
+     <loc>https://opensciencegrid.github.io/production//WeeklyMinutes/09January2018/</loc>
+     <lastmod>2018-01-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://opensciencegrid.github.io/production//WeeklyMinutes/Canceled/</loc>
      <lastmod>2018-01-09</lastmod>
      <changefreq>daily</changefreq>

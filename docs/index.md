@@ -29,6 +29,7 @@ Weekly Production Meetings
 
 ### Recent meeting minutes ###
 
+- [June 2, 2020](https://docs.google.com/document/d/1HMKDIbgTSiqvtdGnBD2lrv6HDjr7kUJEEUJfcco9KXI/edit?usp=sharing)
 - May 26, 2020 (Canceled)
 - May 19, 2020 (Canceled)
 - [May 12, 2020](https://docs.google.com/document/d/1y96JI8qVcGgCA6kZooUxxfc0xhnVinFNq7FGTEZqweA/edit?usp=sharing)

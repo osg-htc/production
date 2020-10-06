@@ -29,6 +29,7 @@ Weekly Production Meetings
 
 ### Recent meeting minutes ###
 
+- [October 6, 2020](https://docs.google.com/document/d/1ZMkc1fk6Ku1moMh9AgcI7xfFKCYLptx0pAZfuCoDsT4/edit?usp=sharing)
 - [September 28, 2020](https://docs.google.com/document/d/1IUnyn2DMkVS3WY9f8-2xB0pUsNbGiZ5HUMzMR4x-0PE/edit?usp=sharing)
 - [September 22, 2020](https://docs.google.com/document/d/1R6akv17BUCVNaIQidltVo4rhNVfESDXecyAjZp9XZg8/edit?usp=sharing)
 - [September 15, 2020](https://docs.google.com/document/d/1cCVQVQR7pUAI4C9tnDqvsuIMvJNzJEgCKMQCJX7xu1k/edit?usp=sharing)

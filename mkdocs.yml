@@ -18,5 +18,4 @@ markdown_extensions:
   - codehilite
 #- toc(permalink=true)
   - toc
-  - osg_markdown.colors
 

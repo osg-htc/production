@@ -29,6 +29,7 @@ Weekly Production Meetings
 
 ### Recent meeting minutes ###
 
+- August 31, 2021 (canceled)
 - [August 24, 2021](https://docs.google.com/document/d/19NhvdjaG05gfexVX1Sp8CtFDWdfNCDm-KN_MbQo0Y68/edit?usp=sharing)
 - [August 17, 2021](https://docs.google.com/document/d/1yLHpd1yBS6UadHM3jQ0oO3UAEpnakiKppb4sWCctBKw/edit?usp=sharing)
 - [August 10, 2021](https://docs.google.com/document/d/1FZDHarwfV9e6z05jHXBbFviLCPZ5HSTfoosg5fVAjHA/edit?usp=sharing)

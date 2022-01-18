@@ -22,7 +22,7 @@ Weekly Production Meetings
 
 **When:** 4:00 PM Eastern (3:00 PM Central)
 
-**Online**: <https://cern.zoom.us/j/207302664>, password sent separately
+**Online**: <https://uwmadison.zoom.us/j/94372598675>, password sent separately
 
 **US Toll**: +1 646 876 9923  or +1 669 900 6833, PIN: 207 302 664
 

@@ -1,5 +1,5 @@
 site_name: OSG Production
-site_url: https://opensciencegrid.org/production/
+site_url: https://osg-htc.org/production/
 repo_url: https://github.com/osg-htc/production/
 google_analytics: ['UA-69012-29', 'opensciencegrid.github.io']
 theme:

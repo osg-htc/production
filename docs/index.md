@@ -29,6 +29,7 @@ Weekly Production Meetings
 
 ### Recent meeting minutes ###
 
+- [July 19, 2022](https://docs.google.com/document/d/1RMdL1lJNIOzPf1AKumcP3gNhpduY6u62NL7qPnDhZnI/edit?usp=sharing)
 - [June 21, 2022](https://docs.google.com/document/d/1ZUVE3v7j82c-BfZN2scM2yiIfb7kcAldUehrLyK33QI/edit?usp=sharing)
 - [June 7, 2022](https://docs.google.com/document/d/1qb-0ZTIN5CCiHZpYZCXeJ53l8RqkO_-4NYG5ZKZp6_o/edit?usp=sharing)
 - [May 10, 2022](https://docs.google.com/document/d/1wj_LKvYb14jvAunQkjrwjuZ2Q5hJLUJET3iwrj5-0vw/edit?usp=sharing)

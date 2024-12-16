@@ -14,7 +14,7 @@ Contact Us
 If you are having issues with the OSG production grid, please contact us:
 
 - [Open a Ticket](http://support.opensciencegrid.org)
-- Email: <mailto:help@opensciencegrid.org>
+- Email: <mailto:support@osg-htc.org>
 
 
 Weekly Production Meetings
